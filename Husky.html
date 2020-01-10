@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mechanical Husky</title>
+<link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/booB836.css">
+	<script src="js/jquA224.js"></script>
+	<script src="js/boo71D9.js"></script>
+</head>
+<script>
+function playPause() {
+var myVideo = document.getElementsByTagName('video')[0];
+	myVideo.pause();
+	myVideo.currentTime = 0;
+       }	
+</script>
+<style>
+.con {
+	min-width: 1366px;
+	min-height: 900px;
+	height: 100%;
+	width: 100%;
+	/*width: 100%;*/
+	border: 0px solid black;
+	position: absolute;
+	text-align: center;
+}
+.con {
+}
+</style>
+<style>
+.btnv {  
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+.btnv:hover {opacity: 0.6}
+</style>	
+<style>
+ .hov ul,li{list-style:none; padding:0; margin:0;}
+  .hov ul{width:72%; margin:100px auto; border:0px solid #000; overflow:hidden;}
+  .hov ul li{
+width:12.5%;
+float:left;
+/*background-color:white;*/
+transition-property:width;
+transition-duration:1s;
+}
+ .hov ul:hover li{
+width:6.875%;
+}
+ .hov ul li:hover{
+width:45%
+} 
+	
+</style>
+<style>
+.btna {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.btna:hover {opacity: 1}
+</style>
+<style>
+.photo img{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.photo img:hover{
+    transform: scale(1.1);
+}	
+	
+</style>
+<style> 
+.black_overlay{ 
+	display: none; 
+	position: absolute; 
+	top: 0%; 
+	left: 0%; 
+	width: 100%; 
+	height: 100%; 
+	background-color: black; 
+	z-index:1001; 
+	-moz-opacity: 0.8; 
+	opacity:.80; 
+	filter: alpha(opacity=88); 
+} 
+.white_content { 
+	display: none; 
+	position: absolute; 
+	top: 25%; 
+	left: 50%;
+	margin-left: -450px;
+	width: 900px; 
+	height: 590px;    
+	overflow: hidden; 
+}
+</style>	
+<style>
+.btnbl {  
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+.btnbl:hover {opacity: 0.6}
+</style>
+<style>
+.sec{
+  width:1280px;
+  height: 300px;
+  position: absolute;
+  top: 320px;
+  left: 50%;
+  margin-left: -640px;
+}
+</style>
+<body>
+
+<div class="con" style="z-index: 1; background:url(images/cwork.png); background-size:cover;background-repeat: no-repeat;background-position: center; border: 0px solid black;">
+	<div id="light" class="white_content">
+			<video src="images/husky.mov" controls="controls" style="z-index:1002;width: 900px; height: 600px;position:absolute;left:50%;margin-left: -450px;top:0px">
+			your browser does not support the video tag
+			</video>
+	</div>
+	<div id="fade" class="black_overlay">		  
+		<a href = "javascript:playPause();" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none';"><button class="btnz" style="z-index:1002;width:45px;height: 45px; margin: 10px 2px; position: absolute;top: 0px; right:8px;font-size: 30px">X </button></a>
+	</div> 
+	<div style="position:absolute;top:65px;left:10%; width:80%; border: 2px solid black;">
+	<button class="btnbl" style="width:15.625%;background-color: black">Mechanical Husky</button>
+	</div>
+	<div class="photo" style="position:absolute;top:160px;left:50%; margin-left: -60px;font-size: 18px;"><a href="index.html"><img src="images/Cpro.jpg" alt="First slide" style="height: 120px; border-radius:50%;"></a><p style="color: white;background-color: black">Chenlu Wu</p></div>	
+	<div class="sec" style="background-color: black; height: 460px;">
+		<div style="position: absolute;top: -20px;left: 50%;margin-left: -640px; color: White;"><h1>Mechanical Husky</h1></div>
+	    <article class="left_article">    
+			<div style="font-size: 20px; color: white" align="justify">
+      <p>•	The Mechanical Husky with cute silly face is modelled by 3dMax platform and constructed via 3D printing with the manual painting. It works as a watchdog to help users tracking desired targets, such as tracking golf ball when the user plays golf outdoor.</p>
+      <p>•	Camera system: It is designed with optical target located system based on OpenMV.</p>
+	<p>•	Intelligent Motion Tracking: Upon detection of movement, the husky automatically moves to track the target based on PI control, captures the motion while delivering notification in real time.</p>
+	<p>•	Alert system: Once the target is out of the tracking scope, the husky starts barking and pushes current status to the SystemLink cloud for user to review.</p>
+			</div>
+    </article>
+    <aside class="right_article">
+		<div width="450" class="placeholder">
+			
+<div id="myCarousel" class="carousel slide">
+	<!-- 轮播（Carousel）指标 -->
+	<ol class="carousel-indicators" style="background-color: black;">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+	</ol>   
+	<!-- 轮播（Carousel）项目 -->
+	<div class="carousel-inner">
+		<div class="item active" style="background-image: url(images/Husky1.jpg);background-size:cover;background-repeat: no-repeat;background-position: center; height: 400px;">
+			<img src="images/null.png" alt="First slide" style="height: 150px; visibility: hidden">
+<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"><button class="btnv" style="background-image: url(images/video.png);background-size:cover;background-repeat: no-repeat;background-position: center; width: 100px;height: 100px; border-radius:50%;"></button></a>
+		</div>
+		<div class="item" style="background-image: url(images/Husky2.jpg);background-size:cover;background-repeat: no-repeat;background-position: center; height: 400px;">
+			<img src="images/null.png" alt="First slide" style="height: 10px; visibility: hidden">
+		</div>
+		<div class="item" style="background-image: url(images/Husky3.jpg);background-size:cover;background-repeat: no-repeat;background-position: center; height: 400px;">
+			<img src="images/null.png" alt="First slide" style="height: 10px; visibility: hidden">
+		</div>
+	</div>
+	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><b>&lt;</b></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"><b>&gt;</b></span>
+		<span class="sr-only">Next</span>
+	</a>
+</div> 
+		</div>
+		 </aside>	
+	</div>
+	</div>	
+	
+</body>
+</html>

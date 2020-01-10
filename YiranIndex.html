@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>Yiran Zuo</title>
+	<link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/timez.css">
+	<link rel="icon" href="images/6.ico">
+	<link rel="shortcut icon" href="images/6.ico">
+	<link rel="stylesheet" href="css/booB836.css">
+	<script src="js/jquA224.js"></script>
+	<script src="js/boo71D9.js"></script>
+</head>
+<style>
+::-webkit-scrollbar
+{
+	width: 10px;
+	height: 10px;
+	background-color: white;/*//背景色*/
+}
+::-webkit-scrollbar-track
+{
+	background-color: white;
+}
+::-webkit-scrollbar-thumb
+{
+	background-color: black;
+}
+::-webkit-scrollbar-corner
+{
+	background-color: red;
+}
+</style>
+<style>
+.btnz {
+  background:url(images/zbtn.png);
+  background-position: center;
+  min-width: 180px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.75;
+  transition: 0.3s;
+}
+.btnz:hover {opacity: 1}
+</style>	
+<style>
+.con {
+	min-width: 1366px;
+	min-height: 900px;
+	height:100%;
+	width: 100%;
+	/*width: 100%;*/
+	border: 0px solid black;
+	position: absolute;
+	text-align: center;
+}
+.con {
+}
+.bgsheet {
+	min-width: 1366px;
+	min-height: 768px;
+	height:100%;
+	width: 100%;
+	/*width: 100%;*/
+	border: 0px solid black;
+	position: absolute;
+	text-align: center;
+}
+.con {
+}
+</style>
+	
+<style>
+ .hov ul,li{list-style:none; padding:0; margin:0;}
+  .hov ul{width:64%; margin:120px auto; border:0px solid #000; overflow:hidden;}
+  .hov ul li{
+width:11.11%;
+float:left;
+/*background-color:white;*/
+transition-property:width;
+transition-duration:1s;
+}
+.hov ul li .ax1 img{
+clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+transition: 1s all;
+height: 180px;
+filter:grayscale(100%);
+border: 20px solid red;
+position: relative;
+left: 50%;
+margin-left: -90px;
+top: 30px;	
+}
+.hov ul li .ax2 img{
+clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+transition: 1s all;
+height: 180px;
+border: 20px solid red;
+position: relative;
+left: 50%;
+margin-left: -90px;
+top: 120px;	
+}	
+ .hov ul:hover li{
+width:7%;
+}
+.hov ul li:hover{
+width:44%
+} 
+.hov ul li:hover .ax1 img{
+clip-path: polygon(0 0, 100% 0,100% 100%,0 100%);
+transform: scale(1.2);
+filter:grayscale(0);
+border: 8px solid red;
+top: 30px;
+}
+.hov ul li:hover .ax2 img{
+clip-path: polygon(0 0, 100% 0,100% 100%,0 100%);
+transform: scale(1.2);
+border: 8px solid red;
+top: 30px;
+} 
+</style>
+
+<style>
+.photo img{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.photo img:hover{
+    transform: scale(1.2);
+}	
+</style>
+<body>
+<div class="bgsheet" style="z-index: 2;position:fixed;background:url(images/uni.png); background-size:cover;background-repeat: no-repeat;background-position: center;"></div>
+<div align="center" style="z-index: 4;position:absolute; min-width: 1366px;width: 100%; top:3.2%; height: 80px; background:url(images/unimenu.png); background-size:cover;background-repeat: no-repeat;background-position: bottom; border: 0px solid black;">
+<button class="btnz" href="#myCarousel" data-slide-to="0" style="width:12.5%; margin: 10px 2px;">HOME </button><button class="btnz" href="#myCarousel" data-slide-to="1" style="width:12.5%;margin: 10px 2px;">ABOUT ME</button><button  href="#myCarousel" data-slide-to="3" style="width:5%;margin: 10px 2px;visibility: hidden">NULL</button><button class="btnz" href="#myCarousel" data-slide-to="2" style="width:12.5%; margin: 10px 2px;">MY WORKS </button><button class="btnz" href="#myCarousel" data-slide-to="3" style="width:12.5%;margin: 10px 2px;">CONTACT ME</button>
+</div>
+<div class="con">
+<div id="myCarousel" class="carousel slide">
+	<!-- 轮播（Carousel）指标 -->
+	<div>
+	<ol class="carousel-indicators" style="z-index: 4; background:url(images/rounbg.png);background-repeat: no-repeat;background-position: center;">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+		<li data-target="#myCarousel" data-slide-to="3"></li>
+	</ol>   
+	</div>
+	<!-- 轮播（Carousel）项目 -->
+	<div class="carousel-inner">
+		<div class="item active" style="background-image: url(images/Yiranhome.png);background-size:cover;background-repeat: no-repeat;background-position: center;height: 969px;">
+			<img src="images/null.png" alt="1 slide" style="height: 135px; visibility: hidden">
+		</div>
+		<div class="item" style=" height: 969px; z-index: 3;">
+		<img src="images/null.png" alt="2 slide" style="height: 135px; visibility: hidden">
+		<div style="position:absolute;top:160px;left:50%;margin-left: -480px; width: 960px; height: 720px;border: 4px solid black;background-image: url(images/ameb.png); background-size:cover;background-repeat: no-repeat;background-position: center;">
+		<div><h1 style="color: black; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'">Well,<br>Who the Heck<br>is<br> Yiran Zuo?</h1></div>
+		<div style="position:absolute;top:200px;left:50%;margin-left: -200px; width: 405px; height: 480px;overflow-x: hidden; overflow-y: scroll;background-image: url(images/ame.png); background-size:cover;background-repeat: no-repeat;background-position: center;">
+		<div><img src="images/Yzs/cover.png" alt="2 slide" style="width: 400px;"></div>
+		<div><h2>~Prologue~</h2>
+			<h5 align="justify">"The oldest and strongest emotion of mankind is fear, and the oldest and strongest kind of fear is fear of the unknown."</h5><h5 align="right">--H.P.Lovecraft &nbsp</h5><br>
+			<div class="photo"><img src="images/Yzs/z.jpg" style="width: 150px;border: 6px solid white;" alt="2 slide"></div>
+			<p><br></p>
+			<p align="justify">"Who am I?" A very classic philosophy question, isn't it? Well, since you have reached here, you must be truly curious about the author and owner of this strange stylish personal website, or maybe you just enter this biography with a lucky click. No matter why you have explored in my website so far, I just want to say: Thank you and good luck. Nothing special here. To be honest, even I don't know how to define myself. You know, I once introduced myself as a magic caster who majored in Homunculus in an English class just beacuse I believed that those young folks would have a better understanding of my specialty. Believe me, I really like this title since it is such an romantic way to express the marvellous of engineering. I once used the name "Zayn" which was given by one of the girls whos was in the same English class in an other story, I am still in favor of using this name when introducing myself until now. Names, user ID, account numbers, nicknames, I have bunch of those and all of those have special meanings. Will any of those have any effect on my nature in any aspect? Who am I? Who is the guy named Yiran Zuo? Who is the guy under the one named Yiran Zuo? Well, let's find out.</p>
+		</div>
+		<div><h1>Chapter I </h1>
+			</div>
+		<div><h2>~&nbsp I &nbsp~</h2>
+			<p align="justify">I was born in a warm family in Beijing, living with my parents and my grandparents. There was not too much to discuss about my childhood, not beacuse it was boring, but beacuse it was nearly a museum of imagination. I once believed that I could see dinosaurs in the zoo and Megatron was just parking outside the road. Can't blame the madness of a child, right? Well, for some time, I even believed that my father could turn into a fire-breathing dragon and protect me from the golden fleet in outerspace, since he always showed me how brave he was when fighting against the alien invasion in Starcraft. I'm just kidding, he don't have to transform to get that power, he is already strong enough. But, imagination or fantasy has its own limitation, to break that, our own hands are the only weapon.
+			<div class="photo"><img src="images/Yzs/pa.JPG" style="width: 300px;border: 6px solid white;" alt="2 slide"></div>
+			<h5 align="center">"My parents are always my source of power"</h5>
+			</p>
+		</div>	
+		<div><h2>~&nbsp II &nbsp~</h2>
+			<p align="justify">You can never imagine how astonishing I was when I first watch the movie: The Terminator 2. As the cyborg fight against the mercury killer with his life, I mean, its life, there was only one thought in my mind: I want to be that guy! And by that guy, I actually mean the antagonist which is made with liquid metal. I was so fascinated in its elegance of action and overwhelming power, and it nearly became my dream that I could built one my own. Until then I was begin to obssess about building robot. </p>
+			<div class="photo"><img src="images/Yzs/DSCF0314.JPG" style="width: 300px;border: 6px solid white;" alt="2 slide"></div>
+			<h5 align="center">"A lot of memory still went on"</h5>
+		</div>
+		<div><h1>Chapter II </h1>
+			</div>
+		<div><h2>~&nbsp III &nbsp~</h2>
+			<p align="justify">Have to say, I didn't have too many friends when I was a child, and my best friend on that period is actually my cat, since all I did entire day was to assembling models. But situation got changes when I was at the age for middle school. You know, talking about the strategies on fighting against boss in Diablo while getting home, throwing away dishes which tasted bad together an lunch were always my favourite.<br>Ah~ Such a good time.
+			<div class="photo"><img src="images/Yzs/DSC01465.JPG" style="width: 300px;border: 6px solid white;" alt="2 slide"></div>
+			<h5 align="center">"My cat must be one of the cutest ones in this word."</h5>
+			</p>
+		</div>
+		<div><h2>~&nbsp IV &nbsp~</h2>
+			<p align="justify">Someone says that farewell is unavoidable in life. Well, there are some guys trying to prove how ridiculous this can be. Those guys were my friends in high school. Oh, about my high school, it was just an ordinary school which you can see every where. You know, telling bad jokes at class, fighting with each other due to a boring reason, buying ice-cream after class, fencing to protect justice, just normal high school life, it was so normal that I had to take so many pictures to keep those memories from fading away. Well, nowadays, even though we may not seeing each other so often, but when we do, we may just sitting in starbucks and chatting for a while, for our friendship will always be there, since those old fools will always be there. Our story was always too long to tell.
+			<div class="photo"><img src="images/Yzs/hs.jpg" style="width: 300px;border: 6px solid white;" alt="2 slide"></div>
+			<h5 align="center">"Have to run for not showing all of those guys"</h5>
+			</p>
+		</div>
+		<div><h2>~&nbsp V &nbsp~</h2>
+			<p align="justify">
+			When I firsty got into the university, I thought it was just another high school, but a really bad grade at the end of first semester proved me wrong. When I was so frustrated	to look at my transcript, I found out that the guys next door was talking about that it is a mistake that they didn't get full As. I was like: "Oh my god! Are they possessed by god of study?" Well, couldn't deny that they are very genius, but what's more important was that they were so friendly as well. After few times of getting in touch, I found out that they were not nerds, not even close to that words, but some energetic boys who had plenty of hobbies. After class, we played basketball at the playground, eating tons of food in canteen, or even play video games together. It was really crazy to scream together when playing Resident Evil at night, though housekeepers were definitely hate us for that.
+			<div class="photo"><img src="images/Yzs/un.jpg" style="width: 300px;border: 6px solid white;" alt="2 slide"></div>
+			<h5 align="center">"It's nice to have these guys around"</h5>
+			</p>
+		</div><br>
+		<div><h2>~Interlude~</h2>
+			<h5>"Ia! Ia! Cthulhu fhtagn!"<br>
+			"ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn"</h5>
+			<p align="center">Like a shoting star, the magical lunar octopus who is playing Pokemon inadvertently flashing through the corner of my eye, leaving a faint smile in my mind.</p>
+			<div class="photo"><img src="images/Yzs/oc.png" alt="2 slide"></div><br>
+			</div>
+		<div><h2>~&nbsp VI &nbsp~</h2>
+			<p align="justify">
+			Technically, it was my first time to leave my sweet home when I took a journey to the United States, and god knew how nervous I was when I got off the plane. It took me 3 days to firsty took a walk to my new school: Tufts University. And it was a really hard time for me to get used to new environment, but thankfully, my found that I was not alone. My high school mate Wu Yue was in town as well. Together, we nearly achieved the achievement of traveling through entire Boston, and watched every movie that can be found in cinema. I dare to say that there is no corner where we hadn't put our feet on. And my first American style Halloween party was with him as well. Although he has already got back to China, I still looking forward to hang on with him one day. 
+			<div class="photo"><img src="images/Yzs/wy.JPG" style="width: 300px;border: 6px solid white;" alt="2 slide"></div>
+			<h5 align="center">"The journey to Salem"</h5>
+			</p>
+		</div>
+		<div><h2>~&nbsp VII &nbsp~</h2>
+			<p align="justify">
+			If traveling always brings inspirations to my life, travel with some friends will bring more. I mean, if you know this two guys, I bet you can't resist the temptation of traveling with them as well. We once threw dices at casino in Las Vegas, took a tour inside the Empire State Building, drived across the western United States, even experienced a real time dog sled in Alaska. Our different ideas allowed us to get different aspect of view from each other, which maked us to see differenty beauty in life. There was always fun traveling with them, for they would always show you the fancy of the world. Who knows, maybe we are cheering up for a bright future in a randomly pub while you read this article.
+			<div class="photo"><img src="images/Yzs/feilyinlu.jpg" style="width: 300px;border: 6px solid white;" alt="2 slide"></div>
+			<h5 align="center">"Always fun for traveling"</h5>
+			</p>		
+		</div>
+		<div><h1>Chapter III </h1>
+			</div>
+		<div><h2>~&nbsp VIII &nbsp~</h2>
+			<p align="justify">
+			When I first meet <a href="index.html">Chenlu Wu</a> at a Chinese student party, we didn't talk at all. To be honest, at that time, I didn't even know her name, and the only impression for her was an arrogant pretty girl who was not easy to get in touch with. Our first chatting happened a few days later, and it was all about our majors. I suppose it is fair to say that our first contact was not that good, even a bit of comical comparing with the relationship between us right now since we have already become BFF. You may get confused why thing goes into such a unimaginable way? Who knows, thing just happens. If I have to say, it was her curiosity that really attract me (although she is one of the most beautiful girl I have ever meet, second only to my cat.) Our first cooperation began with a very hard VLSI assignment, which the task was to use Cadience to build some logical gate. After I finished my part, she came to me and ask for help, as a gentleman, I helped her without hesitate, thinking that she might just finish the work like that, but guess what?
+			<div class="photo"><img src="images/Yzs/how.jpg" style="width: 300px;border: 6px solid white;" alt="2 slide"></div>
+			<h5 align="center">"First group photo"</h5>
+			</p>		
+		</div>
+		<div><h2>~&nbsp IX &nbsp~</h2>
+			<p align="justify">
+			It only took her about 4 hour to finish the assignment after she delete everything I had done for her. During this time, I stayed by her side so that I could have the best seat to witness her failure since I didn't believe that she had the ability to finished the work on her own. Her first error happened in the first 10 miniutes after her start, and all she did was to ask me to taught her what to do so that she would do it herself. Like I said before, she is very beautiful, not beacuse of her face (although she looks pretty as well), but her independency. Until then she always asked me for help and I was happy to teach her. Don't take that wrong, she is strong without me as well, as her understanding in math is so outstanding that her score for the dynamics control class was 99.8 out of 100. When she asked me for help, what she need was not only get things done, but new thoughts to accquire more knowledge.
+			<div class="photo"><img src="images/Yzs/cw.JPG" style="width: 300px;border: 6px solid white;" alt="2 slide"></div>
+			<h5 align="center">"Always nice to work with her"</h5>
+			</p>		
+		</div>
+		<div><h2>~&nbsp X &nbsp~</h2>
+			<p align="justify">
+			Since then, we decided to take same class, work in same project and spent our free time toghther. I believe when you read about the tab of MYWORKS, her names will appears quite often, since most of those works were the crystallization of our friendship. Although we often argue with each other when we built something amazing, we don't argue for proving who is right, but to find a better way to solve the problems. Thanks to her, I accknowledge the fact that studying is such an interesting stuff, for with her accompany, even the dark night seems to be as bright as moon light. Like an elder sister, she would offer me delicious food when I was hungry, like an innocent girl, she will be happy to dance once she meet doggies on the street. Her sunshine would shine upon the coldest tundra and bring warmth to those who is in need of light, just like what she did to me. She is my best friend.
+			<div class="photo"><img src="images/Yzs/cw2.JPG" style="width: 300px;border: 6px solid white;" alt="2 slide"></div>
+			<h5 align="center">"Shh~Don't talk loudly in the library~"</h5>
+			</p>		
+		</div>
+		<div><h2>~&nbsp XI &nbsp~</h2>
+			<p align="justify">
+			As for now, I have graduated from my university along with my career as a student. You may think: "But there has to be something changed, right?" Well, it's just another unfinished episode to write about, just another story to tell. 
+			<div class="photo"><img src="images/Yzs/grad.jpg" style="width: 300px;border: 6px solid white;" alt="2 slide"></div>
+			<h5 align="center">"Data error: Graduate photo missing"</h5>
+			</p>		
+		</div>
+		<div><h2>~&nbsp Epilogue &nbsp~</h2>
+			<p align="justify">
+			Finally, we can get back to our old question: Who Am I? Well, Since you have read this boring article for so long, firstly, I want to say: Thank you. I guess now you might have become really anxious that though this artical is as long as a endless snake, it mainly took most of words telling stories about someone who is not me. But, without them, who I can be? So, you can think me as an engineer, a designer, a developer, a programer, a story teller, a travel lover or a magic caster.<br> But, who I really am? <br>
+			<p align="center">	Well, I AM WHO I AM.</p>
+			</p>		
+		</div>
+		<div><h2>~&nbsp END &nbsp~</h2>
+		
+		</div>
+		</div>
+		</div>
+		</div>
+		<div class="item" style="height: 969px;z-index: 3;">
+		<img src="images/null.png" alt="3 slide" style="height: 135px; visibility: hidden">
+		<div style="position:absolute;left:50%;margin-left: -480px; width: 960px; height: 86px;border: 4px solid black;background:url(images/workc.png); background-size:cover;background-repeat: no-repeat;">
+		<h1 style="color: black; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'">However, What can this Guy do?</h1>
+		</div>	
+			
+		<div style="position:absolute;top:120px;height: 640px；width:1075px;" class="hov">			
+		<ul style="height: 640px; border: 8px solid red;">			
+		  <li>
+			<div class="tl-item">
+    
+    <div class="tl-bg" style="background:url(images/zwork1.png);position:left;"></div>
+    
+    <div class="tl-year">
+		<div class="ax1">
+		<img src="images/dav.jpg" alt="Davinci Code Player" >
+		</div>
+    </div>
+    <div class="tl-content">
+      <h1 style="color: black; font-size: 25px">Davinci Player</h1>
+      <p >The cute tiny hand-made robot can be a smart interactive player of a well-known inferential board game, “DaVinci Code”. Challenge the limitation of your detective ability and enjoy a happy time with our robot.</p>
+		<a href="davincicode.html" style="color: dodgerblue;"><h3>Learn more</h3></a>
+    </div>
+  </div>			
+			</li>
+		  <li>
+			<div class="tl-item">
+    
+    <div class="tl-bg" style="background:url(images/zwork2.png);position:left;"></div>
+    <div class="tl-year">
+		<div class="ax2">
+      <img src="images/piggy.jpg" alt="Robotic Assistant" >
+		</div>
+    </div>
+    <div class="tl-content">
+      <h1 style="color: black; font-size: 25px">Robotic Assistant</h1>
+      <p >The robotic assistance is a smart food feeding mechanism with advanced food recognition algorithm. It’s aimed to improving human’s daily life quality, especially for the people who have trouble in feeding themselves.</p>
+		<a href="robotassistant.html" style="color: dodgerblue;"><h3>Learn more</h3></a>
+    </div>
+  </div>	
+			</li>
+		  <li>
+			<div class="tl-item">
+    
+    <div class="tl-bg" style="background:url(images/zwork3.png);position:left;"></div>  
+    <div class="tl-year">
+	  <div class="ax1">
+      <img src="images/gm.jpg" alt="Glove-Mouse" >
+		  </div>
+    </div>
+    <div class="tl-content">
+      <h1 style="color: black; font-size: 25px">Glove-Mouse</h1>
+      <p >This Bluetooth based ergonomic glove mouse can tracks the user’s hand motion then maps it to mouse so that the user will be able to control their computer’s windows, mouse, and features inside applications.</p>
+		<a href="glovemouse.html" style="color: dodgerblue;"><h3>Learn more</h3></a>
+    </div>
+  </div>	
+			</li>
+		  <li>
+			<div class="tl-item">
+    
+    <div class="tl-bg" style="background:url(images/zwork4.png);position:left;"></div>
+    
+    <div class="tl-year">
+		<div class="ax2">
+      <img src="images/unicornz.jpg" alt="Robotic Unicorn" >
+		</div>
+    </div>
+    <div class="tl-content">
+      <h1 style="color: black; font-size: 25px">Robotic Unicorn</h1>
+      <p >The Robot Unicorn is a 17 DOF four-legged robot with vision system and 5 ‘brains’. It is designed to automatically find the desired target and walk to the target with self-tuning path regulation capability.</p>
+		<a href="unicorn.html" style="color: dodgerblue;"><h3>Learn more</h3></a>
+    </div>
+  </div>	
+			</li>
+		  <li>
+			<div class="tl-item">
+    
+    <div class="tl-bg" style="background:url(images/zwork5.png);position:left;"></div>
+    
+    <div class="tl-year">
+		<div class="ax1">
+      <img src="images/hm.jpg" alt="Health Monitor" >
+		</div>
+    </div>
+    <div class="tl-content">
+      <h1 style="color: black; font-size: 25px">Health Monitor</h1>
+      <p >The Health Monitor is a wearable device designed and tested for the elderly to supervise their health conditions. The results can be viewed on a smartphone. if there is anything abnormal, an alert will be sent. </p>
+		<a href="wearable.html" style="color: dodgerblue;"><h3>Learn more</h3></a>
+    </div>
+  </div>	
+			</li>
+		  <li>
+			<div class="tl-item">
+    
+    <div class="tl-bg" style="background:url(images/zwork6.png);position:left;"></div>
+    
+    <div class="tl-year">
+		<div class="ax2">
+      <img src="images/gs.jpg" alt="Gesture Imitator" >
+		</div>
+    </div>
+    <div class="tl-content">
+      <h1 style="color: black; font-size: 25px">Gesture Imitator</h1>
+      <p >Gesture imitator following the tendency of emancipating human from dangerous work with a remoted controlled bionic robotic hand, mimic the user's gesture in real time. </p>
+		<a href="Gestureimitator.html" style="color: dodgerblue;"><h3>Learn more</h3></a>
+    </div>
+  </div>	
+			</li>
+			<li>
+			<div class="tl-item">
+    
+    <div class="tl-bg" style="background:url(images/zwork7.png);position:left;"></div>
+    
+    <div class="tl-year">
+		<div class="ax1">
+      <img src="images/zclock.jpg" alt="The clock" >
+		</div>
+    </div>
+    <div class="tl-content">
+      <h1 style="color: black; font-size: 25px">The Clock</h1>
+      <p >This myrio based postmodern stylish alarm clock can help you acquire current time in a very unique way, designed to redefine the concept of the unspeakable infinity of time and space.</p>
+		<a href="Theclock.html" style="color: dodgerblue;"><h3>Learn more</h3></a>
+    </div>
+  </div>	
+			</li>
+			<li>
+			<div class="tl-item">
+    
+    <div class="tl-bg" style="background:url(images/zwork8.png);position:left;"></div>
+    
+    <div class="tl-year">
+		<div class="ax2">
+      <img src="images/cat.jpg" alt="Mechanical cat" >
+		</div>
+    </div>
+    <div class="tl-content">
+      <h1 style="color: black; font-size: 25px">Mechanical Samurai Cat</h1>
+      <p >The handsome Mechanical Samurai Cat is a faithful warrior to tracking the target in real time. when the target is in its visual range, the cat will head to the target and staring at it until it vanishes.</p>
+		<a href="cat.html" style="color: dodgerblue;"><h3>Learn more</h3></a>
+
+    </div>
+  </div>	
+			</li>
+			<li>
+			<div class="tl-item">
+    
+    <div class="tl-bg" style="background:url(images/zwork9.png);position:left;"></div>
+    
+    <div class="tl-year">
+		<div class="ax1">
+      <img src="images/bp.jpg" alt="backpack" >
+		</div>
+    </div>
+    <div class="tl-content">
+      <h1 style="color: black; font-size: 25px">Lego Backpack</h1>
+      <p >The LEGO Backpacks 4: Breadboard is designed to create better development environment for LEGO educators.</p>
+		<a href="backpack.html" style="color: dodgerblue;"><h3>Learn more</h3></a>
+    </div>
+  </div>	
+			</li>
+		</ul>		
+</div>
+			
+		</div>
+		<div class="item" style="height: 969px; z-index: 3">
+		<img src="images/null.png" alt="4 slide" style="height: 135px; visibility: hidden">
+		<div align="center" style="z-index: 3;position:absolute;top:180px;left:50%;margin-left: -480px; width: 960px; height: 640px; background:url(images/cont2.png); background-size:cover;background-repeat: no-repeat;background-position: bottom; border: 4px solid black;">
+		<div align="left" style="position:absolute;top:225px;left:50%;margin-left: -180px; width: 360px;">
+        <h3 style="color: black; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'">Telephone: 186-0042-4878</h3>
+		<h3 style="color: black; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'">E-mail: <a href="mailto:940429zayn@gmail.com">zuoyr0429@sina.com</a></h3>
+		<h3 style="color: black; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'">Profile: <a href="https://www.linkedin.com/in/yiran-zuo-89b439183">My Linkedin</a></h3>
+		</div>
+		</div>
+		</div>
+	</div>
+	<!-- 轮播（Carousel）导航 -->
+	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style="z-index: 4;">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="background-color: red"></span>
+	    <span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="z-index: 4;">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="background-color: red"></span>
+	    <span class="sr-only">Next</span>
+	</a>
+</div>
+	</div>
+<script>
+	$(function(){
+		$(".start-slide").click(function(){
+			$("#myCarousel").carousel('cycle');
+		});
+		$(".pause-slide").click(function(){
+			$("#myCarousel").carousel('pause');
+		});
+		$(".prev-slide").click(function(){
+			$("#myCarousel").carousel('prev');
+		});
+		$(".next-slide").click(function(){
+			$("#myCarousel").carousel('next');
+		});
+		$(".slide-one").click(function(){
+			$("#myCarousel").carousel(0);
+		});
+		$(".slide-two").click(function(){
+			$("#myCarousel").carousel(1);
+		});
+		$(".slide-three").click(function(){
+			$("#myCarousel").carousel(2);
+		});
+		$(".slide-four").click(function(){
+			$("#myCarousel").carousel(3);
+		});
+	});
+</script>
+</body>
+</html>
